@@ -1,0 +1,22 @@
+Välkommen till RECON script för att kontrollera en Linus-miljö
+
+=== SYSTEMINFO ===
+Linux kaliTT 6.16.8+kali-arm64 #1 SMP PREEMPT Kali 6.16.8-1kali1 (2025-09-24) aarch64 GNU/Linux
+
+=== AKTUELL ANVÄNDARE ===
+tt
+
+=== ANVÄNDARE MED SHELL  ===
+root:x:0:0:root:/root:/usr/bin/zsh
+postgres:x:114:118:PostgreSQL administrator:/var/lib/postgresql:/bin/bash
+tt:x:1000:1000:TT,,,:/home/tt:/usr/bin/zsh
+
+===NÄTVERK ===
+    inet 127.0.0.1/8 scope host lo
+    inet6 ::1/128 scope host noprefixroute 
+    inet 10.0.2.15/24 brd 10.0.2.255 scope global dynamic noprefixroute eth0
+    inet6 fd17:625c:f037:2:42c8:11bd:3158:243/64 scope global temporary dynamic 
+    inet6 fd17:625c:f037:2:a00:27ff:fe8f:3bbc/64 scope global dynamic mngtmpaddr noprefixroute 
+    inet6 fe80::a00:27ff:fe8f:3bbc/64 scope link noprefixroute 
+
+=== LÄGG TILL FLERA TESTER ===
