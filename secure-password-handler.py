@@ -60,6 +60,7 @@ if not has_special:
 else:
     print ("Password contains a special character")  
 
+#Feature: improved output messages
 #Final result
 print("\nFinal result:")
 if is_secure:
