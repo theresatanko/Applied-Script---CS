@@ -1,3 +1,5 @@
+# Feature: local wordlist password check
+
 password = input ("Enter a password: ")
 
 is_secure = True
