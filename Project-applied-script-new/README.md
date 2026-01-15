@@ -1,6 +1,8 @@
 The purpose of this project is to check whether a password is secure based on several security requirements, 
 by analyzing its content and checking its occurrence in a local password list. 
 This is intended to increase user awareness and security when it comes to password usage.
+In the script, a password is evaluated against multiple criteria, including minimum length, the presence of numeric characters, upper‑case letters and special characters, as well as whether it appears in a wordlist of commonly used passwords. Each failed criterion generates a clear explanation so that the user understands why the password is considered weak and how it can be improved. The goal is not only to reject unsafe passwords, but also to teach better password practices and make it easier to create strong, unique passwords for everyday use.
+
 
 #### A secure, strong, and approved password should contain:
 - At least 12 characters
