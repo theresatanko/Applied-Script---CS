@@ -17,10 +17,10 @@ if system == "Windows":
     print("Windows detected. The script will continue...")
 elif system == "Linux":
    print("Linux detected. This script is intended for Windows.")
-     sys.exit(1)
+   sys.exit(1)
 elif system == "Darwin":
    print("macOS detected. This script is intended for Windows.")
-    sys.exit(1)
+   sys.exit(1)
 else:
     print(f"Unknown operating system ({system}). This script is intended for Windows. Stopping execution.")
     sys.exit(1)
